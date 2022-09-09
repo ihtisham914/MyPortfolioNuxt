@@ -7,49 +7,37 @@ export default {
     iconColor: String,
     heading: String,
     para: String,
-    color: String,
+    borderColor: String,
   },
 };
 </script>
 
 <template>
-  <div class="skill" :style="{ background: color }">
-    <div class="icons">
-      <div :class="`i-mdi-${icon} text-white-700 ${iconColor}`" text-30 />
-    </div>
-    <h3 class="heading">{{ heading }}</h3>
+  <div
+    :class="`skill flex flex-col bg-cyan-50 gap-1.6rem p-3rem b-rd-1rem transition-all cursor-pointer ${borderColor}`"
+  >
+    <!-- <div :class="`i-mdi-language-html5  ${iconColor}`" class="``" text-30 />
+    <div
+      :class="`i-mdi-language-javascript  ${iconColor}`"
+      class="``"
+      text-30
+    />0
+    <div :class="`i-mdi-language-php  ${iconColor}`" class="``" text-30 />
+    <div :class="`i-mdi-react  ${iconColor}`" class="``" text-3 />
+    <div :class="`i-mdi-vuejs  ${iconColor}`" class="``" text-30 /> -->
+    <div :class="`i-mdi-${icon}  ${iconColor}`" class="``" text-35 />
+    <h3 class="mt-2rem text-2.4rem">{{ heading }}</h3>
     <p>{{ para }}</p>
   </div>
 </template>
 
 <style scoped>
-.skill {
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-  /* background-color: #adf992; */
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.5);
-  transition: all 0.3s;
-  cursor: pointer;
-}
-
 .skill:hover {
   transform: translateY(-0.5rem);
 }
 
-.icons {
-  display: flex;
-  gap: 1rem;
-}
-
 p {
   font-size: 2rem;
-}
-
-h3 {
-  margin-top: 2rem;
 }
 
 /* classes for color of icons */
@@ -57,19 +45,39 @@ h3 {
   color: orangered;
 }
 
+.htmlShadow {
+  box-shadow: 1px 6px 5px 0px orangered;
+}
+
 .javascript {
-  color: rgb(233, 233, 21);
+  color: #e9e915;
+}
+
+.javascriptShadow {
+  box-shadow: 0px 3px 5px 1px #e9e915;
 }
 
 .php {
   color: blue;
 }
 
+.phpShadow {
+  box-shadow: 0px 3px 5px 1px blue;
+}
+
 .react {
   color: skyblue;
 }
 
+.reactShadow {
+  box-shadow: 0px 3px 5px 1px skyblue;
+}
+
 .vue {
   color: #42ad74;
+}
+
+.vueShadow {
+  box-shadow: 0px 3px 5px 1px #42ad74;
 }
 </style>

@@ -1,25 +1,106 @@
 <template>
-  <header>
+  <header
+    class="flex flex-row justify-between pt-8 pb-8 pr-16 pl-16 md:pr-45 md:pl-40 lg:pr-45 lg:pl-40 top-0 z-2 sticky bg-gray-50/10 backdrop-blur dark:bg-gray-900/50 light:text-white h-7.4rem w-100% relative"
+  >
     <div>
-      <a class="logo" href="#home"> Ihtisham Ul Haq</a>
+      <a class="text-black text-5xl font-semibold decoration-none" href="#home">
+        Ihtisham Ul Haq</a
+      >
     </div>
-    <ul class="links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
+    <ul class="hidden md:hidden lg:flex justify-between gap-2rem list-none">
+      <li>
+        <a
+          href="#home"
+          class="text-black p-1rem transition-all decoration-none"
+          hover=" text-indigo-600"
+          >Home</a
+        >
+      </li>
+      <li>
+        <a
+          href="#skills"
+          class="text-black p-1rem transition-all decoration-none"
+          hover=" text-indigo-600"
+          >Skills</a
+        >
+      </li>
+      <li>
+        <a
+          href="#about"
+          class="text-black p-1rem transition-all decoration-none"
+          hover=" text-indigo-600"
+          >About</a
+        >
+      </li>
+      <li>
+        <a
+          href="#projects"
+          class="text-black p-1rem transition-all decoration-none"
+          hover="text-indigo-600"
+          >Projects</a
+        >
+      </li>
+      <li>
+        <a
+          href="#contact"
+          class="text-black p-1rem transition-all decoration-none"
+          hover=" text-indigo-600"
+          >Contact</a
+        >
+      </li>
+      <li><div class="i-mdi-white-balance-sunny text-black text-13" /></li>
+      <!-- <li><div class="i-mdi-moon-waning-crescent text-white text-13" /></li> -->
     </ul>
-    <div v-show="!show" class="link_icon_open">
-      <div class="i-mdi-menu text-blue-700" text-15 @click="showMenu" />
+    <div v-show="!show" class="block md:block lg:hidden">
+      <div class="i-mdi-menu text-indigo-600" text-15 @click="showMenu" />
     </div>
-    <div v-show="show" class="link_icon">
-      <div class="i-mdi-close text-blue-700" text-15 @click="showMenu" />
+    <div v-show="show" class="block md:block lg:hidden">
+      <div class="i-mdi-close text-indigo-600" text-15 @click="showMenu" />
     </div>
-    <ul v-show="show" class="menu_links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
+    <ul
+      v-show="show"
+      class="flex flex-col align-start gap-2rem list-none p-4rem h-90vh w-30rem absolute top-29 right-15 md:right-40 md:flex lg:hidden bg-cyan-50 dark:bg-gray-900/50"
+    >
+      <li>
+        <a
+          href="#home"
+          class="text-black p-1rem transition-all decoration-none"
+          hover="font-semibold"
+          >Home</a
+        >
+      </li>
+      <li>
+        <a
+          href="#skills"
+          class="text-black p-1rem transition-all decoration-none"
+          hover="font-semibold"
+          >Skills</a
+        >
+      </li>
+      <li>
+        <a
+          href="#about"
+          class="text-black p-1rem transition-all decoration-none"
+          hover="font-semibold"
+          >About</a
+        >
+      </li>
+      <li>
+        <a
+          href="#projects"
+          class="text-black p-1rem transition-all decoration-none"
+          hover="font-semibold"
+          >Projects</a
+        >
+      </li>
+      <li>
+        <a
+          href="#contact"
+          class="text-black p-1rem transition-all decoration-none"
+          hover="font-semibold"
+          >Contact</a
+        >
+      </li>
     </ul>
   </header>
 </template>
@@ -35,152 +116,17 @@ export default {
   methods: {
     showMenu() {
       this.show = !this.show;
+      console.log("click");
     },
   },
 };
 </script>
 
 <style scoped>
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2rem 8rem;
-  width: 100%;
-  height: 7.4rem;
-
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 0 0 1.6rem 1.6rem;
-  box-shadow: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(5rem);
-
-  position: sticky;
-  z-index: 2;
-  top: 0;
-}
-
-.logo {
-  color: #fff;
-  font-size: 2.8rem;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-ion-icon {
-  display: none;
-  visibility: hidden;
-}
-
-.link_icon {
-  display: inline-block;
-  visibility: visible;
-}
-
-.link_icon_open,
-.menu_links,
-.link_icon {
-  display: none;
-  visibility: hidden;
-}
-
-.links {
-  display: flex;
-  visibility: visible;
-  align-items: center;
-  justify-content: space-between;
-  gap: 4rem;
-  list-style: none;
-}
-
-.menu_links {
-  display: flex;
-  visibility: visible;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 3rem;
-  border-radius: 1.6rem;
-  background-color: #b24fecc5;
-  backdrop-filter: blur(5rem);
-  list-style: none;
-  width: 30%;
-  padding: 2rem 4rem !important;
-
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  right: 0;
-  transform: translate(100%, 26%);
-}
-
-/* ul.menu_links li {
-  margin-left: 4rem;
-} */
-
-ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 200;
-  transition: all 0.3s;
-  border-bottom: 2px solid #ffffff1a;
-  padding-bottom: 0.3rem;
-  letter-spacing: 0.1rem;
-}
-
-li {
+/* li {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 7rem;
-}
-
-ul li a:hover,
-ul li a:active,
-ul a a:visited {
-  border-bottom: 2px solid blue;
-  font-size: 2.6rem;
-  /* color: blueviolet; */
-}
-
-/* media queries */
-@media only screen and (max-width: 930px) {
-  ion-icon {
-    display: inline-block;
-    visibility: visible;
-  }
-  .links {
-    display: none;
-    visibility: hidden;
-  }
-
-  .menu_links {
-    display: flex;
-    visibility: visible;
-  }
-
-  .link_icon {
-    display: inline-block;
-    visibility: visible;
-  }
-
-  .menu_links {
-    transform: translate(0%, 26%);
-  }
-
-  .link_icon_open {
-    display: inline-block;
-    visibility: visible;
-  }
-}
-
-@media only screen and (max-width: 530px) {
-  .menu_links {
-    width: 50%;
-  }
-}
-
-@media only screen and (max-width: 430px) {
-  .logo {
-    font-size: 2.4rem;
-  }
-}
+} */
 </style>

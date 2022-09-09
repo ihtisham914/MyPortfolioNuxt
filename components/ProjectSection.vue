@@ -9,13 +9,12 @@ export default {
 </script>
 
 <template>
-  <div class="project_container" id="projects">
-    <h3 class="heading" flex align-center gap5>
+  <div
+    class="ml-auto mr-auto pt-12rem pl-4rem pr-4rem md:pl-10rem md:pr-10rem lg:pl-10rem lg:pr-10rem"
+    id="projects"
+  >
+    <h3 class="flex items-center gap5 mb-3.4rem">
       <div class="i-mdi-stack-overflow text-blue-700" text-15 />
-      <!-- <fa
-        :icon="['fas', 'sheet-plastic']"
-        :style="{ color: '#9e00f9', marginRight: '1rem' }"
-      /> -->
       My Amazing Projects
     </h3>
     <Project

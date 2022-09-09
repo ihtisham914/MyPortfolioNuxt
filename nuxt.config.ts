@@ -24,11 +24,16 @@ export default defineNuxtConfig({
       },
     ],
   },
-  modules: ["@unocss/nuxt"],
+  modules: ["@unocss/nuxt", "@nuxtjs/color-mode"],
   unocss: {
     // presets
     uno: true, // enabled `@unocss/preset-uno`
     icons: true, // enabled `@unocss/preset-icons`
     attributify: true, // enabled `@unocss/preset-attributify`,
+  },
+  colorMode: {
+    preference: "system",
+    fallback: "light",
+    classSuffix: "",
   },
 });
