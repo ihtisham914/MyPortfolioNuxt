@@ -1,23 +1,18 @@
 <template>
   <div
     id="app"
-    class="text-2.4rem dark:text-white dark:bg-gray-900/10 text-black bg-white"
+    class="text-2.4rem dark:text-white dark:bg-gray-700 text-black bg-white relative"
   >
-    <Header setColorTheme="setColorTheme" />
+    <Header />
     <HeroSection />
     <SkillSection />
     <About />
     <ProjectSection />
     <ContactSection />
     <Footer />
+    <NavBar />
   </div>
 </template>
-
-<!-- <script setup lang="ts">
-type Theme = "light" | "dark";
-
-const;
-</script> -->
 
 <style>
 * {

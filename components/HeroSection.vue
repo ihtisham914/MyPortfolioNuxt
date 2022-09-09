@@ -12,7 +12,7 @@ export default {
 
 <template>
   <div
-    class="ml-auto mr-auto pt-8rem pb-8rem pl-4rem pr-4rem md:pl-10rem md:pr-10rem lg:pl-10rem lg:pr-16rem relative bg-cyan-50 flex flex-col items-center justify-between gap-6.4rem md:flex-row lg:flex-row"
+    class="ml-auto mr-auto pt-8rem pb-8rem pl-4rem pr-4rem md:pl-10rem md:pr-10rem lg:pl-10rem lg:pr-16rem relative bg-cyan-50 flex flex-col items-center justify-between gap-6.4rem md:flex-row lg:flex-row dark:text-black"
     id="home"
   >
     <div class="w-100% lg:w-50%">

@@ -13,10 +13,10 @@ export default {
 
 <template>
   <div
-    class="flex flex-col items-center justify-between gap-3.2rem mb-6.4rem p3.2rem md:p-4.4rem lg:p-4.4rem md:flex-row lg:flex-row shadow"
+    class="flex flex-col items-center justify-between gap-3.2rem mb-6.4rem p3.2rem md:p-4.4rem lg:p-4.4rem md:flex-row lg:flex-row shadow-lg dark:bg-gray-600"
   >
     <div class="w-100% md:w-40% lg:w-40%">
-      <h4 class="mb-2.8rem">
+      <h4 class="mb-2.8rem text-indigo-600 dark:text-indigo-400">
         {{ title }}
       </h4>
       <p class="text-2rem mb-3.4rem">
@@ -24,7 +24,7 @@ export default {
       </p>
       <span class="mr-1rem text-2.2rem">Link:</span
       ><a
-        class="text-black text-1.8rem transition-all"
+        class="text-black text-1.8rem transition-all dark:text-white"
         hover="decoration-none text-indigo-600"
         :href="`${link}`"
         target="_blank"
@@ -32,7 +32,7 @@ export default {
       ><br />
       <span class="mr-1rem text-2.2rem">Code: </span
       ><a
-        class="text-black text-1.8rem transition-all"
+        class="text-black text-1.8rem transition-all dark:text-white"
         hover="decoration-none text-indigo-600"
         :href="`${code}`"
         target="_blank"
