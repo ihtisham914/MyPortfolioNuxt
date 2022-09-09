@@ -1,7 +1,7 @@
 <template>
   <div
     id="app"
-    class="text-2.4rem dark:text-white dark:bg-gray-700 text-black bg-white relative"
+    class="text-2.4rem dark:text-white dark:bg-gray-800 text-black bg-white relative"
   >
     <Header />
     <HeroSection />

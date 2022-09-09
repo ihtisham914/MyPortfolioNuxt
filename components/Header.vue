@@ -53,13 +53,13 @@
       </li>
       <li>
         <div
-          :class="`dark:i-mdi-white-balance-sunny i-mdi-moon-waning-crescent text-black text-13 dark:text-white`"
+          class="i-mdi-white-balance-sunny dark:i-mdi-moon-waning-crescent text-black text-13 dark:text-white cursor-pointer"
           @click="toggleDark"
         />
       </li>
     </ul>
     <div
-      :class="`dark:i-mdi-white-balance-sunny i-mdi-moon-waning-crescent text-black text-13 dark:text-white lg:hidden`"
+      class="i-mdi-white-balance-sunny dark:i-mdi-moon-waning-crescent text-black text-13 dark:text-white lg:hidden cursor-pointer"
       @click="toggleDark"
     />
   </header>
