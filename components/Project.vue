@@ -3,6 +3,9 @@ export default {
   name: "Project",
   props: {
     title: String,
+    icon: String,
+    iconColor: String,
+    iconTitle: String,
     para: String,
     link: String,
     code: String,
@@ -16,14 +19,29 @@ export default {
     class="flex flex-col items-center justify-between gap-3.2rem mb-6.4rem p3.2rem md:p-4.4rem lg:p-4.4rem md:flex-row lg:flex-row shadow-xl dark:bg-gray-700 b-rd-1rem"
   >
     <div class="w-100% md:w-40% lg:w-40%">
-      <h4 class="mb-2.8rem text-indigo-600 dark:text-indigo-400">
-        {{ title }}
-      </h4>
+      <div class="flex items-center gap-2rem mb-2.8rem">
+        <h4
+          class="text-indigo-600 bg-cyan-50 dark:text-indigo-400 shadow-md p-0.3rem pr-1rem pl-1rem b-rd-0.5rem dark:text-white dark:bg-gray-600"
+        >
+          {{ title }}
+        </h4>
+        <div
+          class="flex items-center justify-center bg-cyan-50 gap-1rem p-0.5rem pr-1rem pl-1rem shadow-md b-rd-0.5rem dark:bg-gray-600"
+        >
+          <!-- <div :class="`i-mdi-nuxt  text-green-500 text-3rem" /> -->
+          <div v-if="icon == 'nuxt'" class="flex items-center mr-1rem">
+            <div class="i-mdi-vuejs text-green-600 text-3rem" />
+            <h5 class="text-gray-400">vuejs</h5>
+          </div>
+          <div :class="`i-mdi-${icon}  ${iconColor} text-3rem`" />
+          <h5 class="text-gray-400">{{ iconTitle }}</h5>
+        </div>
+      </div>
       <p class="text-2rem mb-3.4rem">
         {{ para }}
       </p>
       <div
-        class="flex gap-4.4rem items-center justify-between md:justify-initial lg:justify-initial"
+        class="flex gap-4.4rem items-center justify-between md:justify-initial lg:justify-initial mt-5.4rem"
       >
         <Button
           :gotoid="`${link}`"
@@ -36,8 +54,8 @@ export default {
         <Button
           :gotoid="`${code}`"
           title="GitHub"
-          color="text-white"
-          bgColor="bg-rose-500"
+          color="text-rose-500"
+          bgColor="bg-white"
           border="border-rose-500"
           target="_blank"
         />

@@ -15,7 +15,7 @@ export default {
 <template>
   <a :href="`${gotoid}`" :target="`${target}`"
     ><button
-      :class="`btn text-3xl ${color} ${bgColor} ${border} pt-0.5rem pb-0.5rem pl-1rem pr-1rem b-rd-0.5rem b-rd-0.5rem  cursor-pointer transition-all`"
+      :class="`btn text-3xl ${color} ${bgColor} ${border} pt-0.5rem pb-0.5rem pl-1rem pr-1rem b-rd-0.5rem cursor-pointer transition-all`"
       hover="text-indigo-600 bg-white"
     >
       {{ title }}

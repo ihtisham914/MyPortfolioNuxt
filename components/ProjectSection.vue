@@ -21,14 +21,17 @@ export default {
       <Button
         gotoid="https://github.com/ihtisham914"
         title="GitHub Account"
-        color="text-white"
-        bgColor="bg-rose-500"
+        color="text-rose-500"
+        bgColor="bg-white"
         border="border-rose-500"
         target="_blank"
       />
     </div>
     <Project
-      title="Chat Application => built in HTML and CSS:"
+      title="Chat Application"
+      iconTitle="HTML and CSS"
+      icon="language-html5"
+      iconColor="html"
       para="Resposive Chat Application for desktop, tablet and mobile: Designed in HMTL and CSS, This Application was designed for a start up is is used as an embbed component in large application.
       This is first of my projects."
       link="https://chatresponsivedesign.netlify.app"
@@ -37,14 +40,20 @@ export default {
     />
 
     <Project
-      title="CharsadwaChappal => built in php:"
+      title="CharsadwaChappal"
+      iconTitle="PHP"
+      icon="language-php"
+      iconColor="php"
       para="CharsadwalChappal is an E-commerce website built for a client. It is a full stack website. I designed it and built it. you can buy Traditional Charsadwal Chappal from here as well as new trending designs."
       link="https://charsadwalchappal.000webhostapp.com/client/index.php"
       code="https://github.com/ihtisham914/charsadwalChappalphp.git"
       img_1="chappal.webp"
     />
     <Project
-      title="CodingTech => built in React:"
+      title="CodingTech"
+      iconTitle="React"
+      icon="react"
+      iconColor="react"
       para="CodingTech is a simple, responsive Front-end website that is built in React. A customer can visit this site to get online services for web development. He can view profiles of the Team as well. He can contact the vendors through a form."
       link="https://codingtechreact.netlify.app"
       code="https://github.com/ihtisham914/CodingTechReact.git"
@@ -52,7 +61,10 @@ export default {
     />
 
     <Project
-      title="Portfolio => built in Vue.js plus Nuxt.js:"
+      title="Portfolio"
+      iconTitle="Nuxtjs"
+      icon="nuxt"
+      iconColor="nuxt"
       para="My own reponsive portfolio built in vue.js and Nuxt.js. The Desing is inspired from the new trending design 'Glassmorphism'. Here I have listed all my skills. I showcased all the projects that I have been working on."
       link="https://ihtishamportfolio.netlify.app"
       code="https://github.com/ihtisham914/myportfolionuxt.git"

@@ -23,21 +23,17 @@ export default {
       text-30
     />0
     <div :class="`i-mdi-language-php  ${iconColor}`" text-30 />
-    <div :class="`i-mdi-react  ${iconColor}`"  text-3 />
+    <div :class="`i-mdi-react  ${iconColor}`"  text-30 />
     <div :class="`i-mdi-vuejs  ${iconColor}`" text-30 /> -->
-    <div :class="`i-mdi-${icon}  ${iconColor}`" text-35 />
+    <div :class="`i-mdi-${icon}  ${iconColor} text-35`" />
     <h3 class="mt-2rem text-2.4rem text-indigo-600">{{ heading }}</h3>
     <p>{{ para }}</p>
   </div>
 </template>
 
-<style scoped>
+<style>
 .skill:hover {
   transform: translateY(-0.5rem);
-}
-
-p {
-  font-size: 2rem;
 }
 
 /* classes for color of icons */
@@ -79,5 +75,9 @@ p {
 
 .vueShadow {
   box-shadow: 0px 3px 5px 1px #42ad74;
+}
+
+.nuxt {
+  color: #4ade80;
 }
 </style>
