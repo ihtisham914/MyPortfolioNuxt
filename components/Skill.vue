@@ -15,6 +15,7 @@ export default {
 <template>
   <div
     :class="`skill flex flex-col bg-cyan-50 gap-1.6rem p-3rem b-rd-1rem transition-all cursor-pointer dark:text-white dark:bg-gray-700 ${borderColor}`"
+    data-aos="fade-up"
   >
     <!-- <div :class="`i-mdi-language-html5  ${iconColor}`"  text-30 />
     <div

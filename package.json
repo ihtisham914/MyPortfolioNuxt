@@ -13,5 +13,8 @@
     "@unocss/nuxt": "^0.45.18",
     "@unocss/preset-icons": "^0.45.18",
     "nuxt": "3.0.0-rc.9"
+  },
+  "dependencies": {
+    "aos": "^2.3.4"
   }
 }

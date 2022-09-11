@@ -4,10 +4,10 @@
   >
     <div>
       <a
-        class="text-black dark:text-white text-5xl font-semibold decoration-none"
+        class="text-black dark:text-white text-3.4rem font-semibold decoration-none"
         href="#home"
       >
-        Ihtisham Ul Haq</a
+        ɨʊɦ</a
       >
     </div>
     <ul class="hidden md:hidden lg:flex justify-between gap-2rem list-none">

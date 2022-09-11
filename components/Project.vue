@@ -13,7 +13,7 @@ export default {
 
 <template>
   <div
-    class="flex flex-col items-center justify-between gap-3.2rem mb-6.4rem p3.2rem md:p-4.4rem lg:p-4.4rem md:flex-row lg:flex-row shadow-lg dark:bg-gray-700 b-rd-1rem"
+    class="flex flex-col items-center justify-between gap-3.2rem mb-6.4rem p3.2rem md:p-4.4rem lg:p-4.4rem md:flex-row lg:flex-row shadow-xl dark:bg-gray-700 b-rd-1rem"
   >
     <div class="w-100% md:w-40% lg:w-40%">
       <h4 class="mb-2.8rem text-indigo-600 dark:text-indigo-400">
@@ -22,27 +22,31 @@ export default {
       <p class="text-2rem mb-3.4rem">
         {{ para }}
       </p>
-      <span class="mr-1rem text-2.2rem">Link:</span
-      ><a
-        class="text-black text-1.8rem transition-all dark:text-white"
-        hover="decoration-none text-indigo-600"
-        :href="`${link}`"
-        target="_blank"
-        >Visit site</a
-      ><br />
-      <span class="mr-1rem text-2.2rem">Code: </span
-      ><a
-        class="text-black text-1.8rem transition-all dark:text-white"
-        hover="decoration-none text-indigo-600"
-        :href="`${code}`"
-        target="_blank"
-        >GitHub</a
+      <div
+        class="flex gap-4.4rem items-center justify-between md:justify-initial lg:justify-initial"
       >
+        <Button
+          :gotoid="`${link}`"
+          title="Demo"
+          color="text-white"
+          bgColor="bg-rose-500"
+          border="border-rose-500"
+          target="_blank"
+        />
+        <Button
+          :gotoid="`${code}`"
+          title="GitHub"
+          color="text-white"
+          bgColor="bg-rose-500"
+          border="border-rose-500"
+          target="_blank"
+        />
+      </div>
     </div>
     <div class="flex items-center justify-center h-30rem w-50rem b-rd-1rem">
       <img
         class="h-100% w-40rem ml-0 md:w-45rem lg:w-45rem b-rd-1rem"
-        :src="`${img_1}`"
+        :src="`static/projectImages/${img_1}`"
         alt="Project images"
       />
     </div>

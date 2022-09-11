@@ -17,7 +17,7 @@ export default {
     id="skills"
   >
     <h3 class="text-3.2rem mb-6.8rem" flex align-center gap-5>
-      <div class="i-mdi-user text-indigo-600" text-15 />
+      <div class="i-mdi-user text-indigo-600 text-4rem" />
       Skilled In Technologies
     </h3>
     <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-3.2rem">
@@ -66,7 +66,13 @@ export default {
         />
         <h3 class="heading_sure">Not sure yet!</h3>
         <p>If you are not sure about your Project, let's talk about it ...</p>
-        <Button title="Let's Talk" color="#fff" bgcolor="#3C2DE8BD" />
+        <Button
+          gotoid="#contact"
+          title="Let's Talk"
+          color="text-white"
+          bgColor="bg-indigo-600"
+          border="border-indigo-600"
+        />
       </div>
     </div>
   </div>
