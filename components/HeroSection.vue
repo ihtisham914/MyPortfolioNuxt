@@ -12,7 +12,7 @@ export default {
 
 <template>
   <div
-    class="ml-auto mr-auto pt-8rem pb-8rem pl-4rem pr-4rem md:pl-10rem md:pr-10rem lg:pl-10rem lg:pr-16rem relative bg-cyan-50 flex flex-col items-center justify-between gap-6.4rem md:flex-row lg:flex-row dark:bg-gray-700"
+    class="h-90vh ml-auto mr-auto pt-8rem pb-8rem pl-4rem pr-4rem md:pl-10rem md:pr-10rem lg:pl-10rem lg:pr-16rem relative bg-cyan-50 flex flex-col items-center justify-between gap-6.4rem md:flex-row lg:flex-row dark:bg-gray-700"
     id="home"
   >
     <div class="w-100% lg:w-50%">
@@ -49,8 +49,8 @@ export default {
         >
       </div>
     </div>
-    <div class="flex gap-3rem flex-row lg:flex-col relative">
-      <div class="flex flex-col gap-1rem absolute top-40% right-105%">
+    <div class="flex gap-3rem items-center flex-col md:flex-row lg:flex-row">
+      <div class="flex flex-row gap-1rem md:flex-col lg:flex-col">
         <a href="https://gitlab.com/ihtisham914" target="_blank">
           <div
             class="i-mdi-gitlab text-red-500 text-2.8rem transition-all"
@@ -84,7 +84,7 @@ export default {
 }
 
 .hero_img {
-  background-image: url("../assets/images/Sham.webp");
+  background-image: url("../static/assets/images/Sham.webp");
   height: 40rem;
   width: 40rem;
   border-radius: 50%;

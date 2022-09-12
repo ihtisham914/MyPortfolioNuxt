@@ -62,7 +62,7 @@ export default {
       rgba(72, 0, 253, 0.12),
       rgba(255, 0, 225, 0.12)
     ),
-    url("../assets/images/contactimage.webp");
+    url("../static/assets/images/contactimage.webp");
   background-size: cover;
   background-position: center;
 }

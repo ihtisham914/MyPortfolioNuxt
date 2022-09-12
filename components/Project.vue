@@ -31,7 +31,7 @@ export default {
           <!-- <div :class="`i-mdi-nuxt  text-green-500 text-3rem" /> -->
           <div v-if="icon == 'nuxt'" class="flex items-center mr-1rem">
             <div class="i-mdi-vuejs text-green-600 text-3rem" />
-            <h5 class="text-gray-400">vuejs</h5>
+            <h5 class="text-gray-400">VueJs</h5>
           </div>
           <div :class="`i-mdi-${icon}  ${iconColor} text-3rem`" />
           <h5 class="text-gray-400">{{ iconTitle }}</h5>
@@ -64,7 +64,7 @@ export default {
     <div class="flex items-center justify-center h-30rem w-50rem b-rd-1rem">
       <img
         class="h-100% w-40rem ml-0 md:w-45rem lg:w-45rem b-rd-1rem"
-        :src="`static/projectImages/${img_1}`"
+        :src="`static/assets/projectImages/${img_1}`"
         alt="Project images"
       />
     </div>

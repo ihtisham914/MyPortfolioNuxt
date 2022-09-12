@@ -4,7 +4,8 @@
   >
     <div>
       <a
-        class="text-black dark:text-white text-3.4rem font-semibold decoration-none"
+        class="text-gray-600 dark:text-white text-3.4rem font-semibold decoration-none"
+        hover="text-indigo-600 dark:text-rose-500"
         href="#home"
       >
         ɨʊɦ</a
@@ -14,46 +15,47 @@
       <li>
         <a
           href="#home"
-          class="text-black dark:text-white p-1rem transition-all decoration-none"
-          hover=" text-indigo-600"
+          class="text-gray-600 dark:text-white p-1rem transition-all decoration-none"
+          hover=" text-indigo-600 dark:text-rose-500"
           >Home</a
         >
       </li>
       <li>
         <a
           href="#skills"
-          class="text-black dark:text-white p-1rem transition-all decoration-none"
-          hover=" text-indigo-600"
+          class="text-gray-600 dark:text-white p-1rem transition-all decoration-none"
+          hover=" text-indigo-600 dark:text-rose-500"
           >Skills</a
         >
       </li>
       <li>
         <a
           href="#about"
-          class="text-black dark:text-white p-1rem transition-all decoration-none"
-          hover=" text-indigo-600"
+          class="text-gray-600 dark:text-white p-1rem transition-all decoration-none"
+          hover=" text-indigo-600 dark:text-rose-500"
           >About</a
         >
       </li>
       <li>
         <a
           href="#projects"
-          class="text-black dark:text-white p-1rem transition-all decoration-none"
-          hover="text-indigo-600"
+          class="text-gray-600 dark:text-white p-1rem transition-all decoration-none"
+          hover="text-indigo-600 dark:text-rose-500"
           >Projects</a
         >
       </li>
       <li>
         <a
           href="#contact"
-          class="text-black dark:text-white p-1rem transition-all decoration-none"
-          hover=" text-indigo-600"
+          class="text-gray-600 dark:text-white p-1rem transition-all decoration-none"
+          hover=" text-indigo-600 dark:text-rose-500"
           >Contact</a
         >
       </li>
       <li>
         <div
-          class="i-mdi-white-balance-sunny dark:i-mdi-moon-waning-crescent text-black text-13 dark:text-white cursor-pointer"
+          class="i-mdi-white-balance-sunny dark:i-mdi-moon-waning-crescent text-gray-600 text-13 dark:text-white cursor-pointer"
+          hover="text-black dark:text-gray-300"
           @click="toggleDark"
         />
       </li>

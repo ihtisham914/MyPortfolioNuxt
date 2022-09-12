@@ -51,7 +51,7 @@ export default {
     />
     <Project
       title="CodingTech"
-      iconTitle="React"
+      iconTitle="Reactjs"
       icon="react"
       iconColor="react"
       para="CodingTech is a simple, responsive Front-end website that is built in React. A customer can visit this site to get online services for web development. He can view profiles of the Team as well. He can contact the vendors through a form."
