@@ -25,9 +25,9 @@ export default {
         class="mt-2.4rem mb-6rem lh-4rem text-center lg:text-start md:text-start"
       >
         I am a
-        <span text-indigo-600 dark:text-rose-500>software Engineer</span> with
-        skills in Web Development, working in different JavaScript Frameworks
-        like <span text-indigo-600 dark:text-rose-500>React.js</span> and
+        <span text-indigo-600 dark:text-rose-500>software Engineer</span> and
+        Full Stack Developer, working in different JavaScript Frameworks like
+        <span text-indigo-600 dark:text-rose-500>React.js</span> and
         <span text-indigo-600 dark:text-rose-500>Vue.js</span>
       </h3>
       <div class="text-center md:text-start lg:text-start">

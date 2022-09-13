@@ -5,13 +5,29 @@
   >
     <img class="h-50rem" src="../static/images/aboutdp.jpg" alt="" />
     <div>
-      <h3 class="text-3.2rem mb-6.8rem">About Me</h3>
+      <h3
+        class="text-3.2rem mb-4.6rem text-center md:text-initial lg:text-initial"
+      >
+        About Me
+      </h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vitae
-        suscipit veritatis mollitia alias. Officiis fugit voluptatum nemo est
-        ipsam quibusdam fugiat ex ratione facere, et deserunt, doloribus nostrum
-        eos. Veritatis voluptatem porro, consequatur placeat maiores
-        consequuntur veniam molestiae, cupiditate rerum pariatur
+        I am a Software Engineer and Full Stack Developer, I am doing my
+        software Engineering degree from University of Engineering and
+        Technology Mardan. In the end of 2021, I started my journey as Web
+        developer: First I learned
+        <strong text-orange-600>HTML and CSS</strong>, then
+        <strong text-yellow>JavaScript</strong>, after that I learned
+        <strong text-blue-700>PHP</strong> and currently I am learning
+        JavaScript Frameworks like <strong text-sky>ReactJs</strong>,
+        <strong text-green-600>VueJs</strong> and
+        <strong text-green>NuxtJs</strong>. In addition to these I have
+        understanding of Design principles, and can design websites in Figma. I
+        have a full grip on <strong text-orange-600>custom CSS</strong> but I
+        also use <strong text-sky>Tailwind</strong>,
+        <strong text-sky-300>Windi</strong> and
+        <strong text-gray-5 dark:text-gray-2>UnoCSS</strong>. In the upcomming
+        months I'm looking forward to master ReactJS and NextJs. From there I
+        will go for <strong text-blue-400>React Native</strong> as well.
       </p>
     </div>
   </div>
