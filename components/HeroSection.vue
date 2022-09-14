@@ -84,7 +84,7 @@ export default {
 }
 
 .hero_img {
-  background-image: url("../static/images/Sham.webp");
+  background-image: url("../assets/images/Sham.webp");
   height: 40rem;
   width: 40rem;
   border-radius: 50%;

@@ -1,10 +1,10 @@
 <template>
-  <div class="w-100% absolute sticky bottom-0 z-10 relative">
+  <div class="w-100% absolute sticky bottom-0 z-10 lg:hidden relative">
     <div
       class="absolute bg-indigo-400 dark:bg-rose-400 h-4.4rem b-rd-t-15rem w-80% absolute top-50% left-10%"
     ></div>
     <ul
-      class="flex items-center justify-center gap-2rem list-none p-2rem text-2rem w-100% md:right-40 md:flex lg:hidden bg-gray-50/10 backdrop-blur dark:bg-gray-900/50 light:text-white"
+      class="flex items-center justify-center gap-2rem list-none p-2rem text-2rem w-100% md:right-40 flex bg-gray-50/10 backdrop-blur dark:bg-gray-900/50 light:text-white"
     >
       <li>
         <a
