@@ -20,21 +20,21 @@ export default {
           method="post"
         >
           <input
-            class="pt-2 pb-2 pl-4 pr-4 b-rd-2rem text-1.8rem outline-none max-w-40rem h-5rem text-indigo-600 bg-white b-indigo-600"
+            class="pt-2 pb-2 pl-4 pr-4 b-rd-2rem text-1.8rem outline-none max-w-40rem h-5rem text-indigo-600 dark:text-white dark:bg-gray-400 b-indigo-600"
             type="text"
             required
             placeholder="Your Name"
             name="name"
           />
           <input
-            class="pt-2 pb-2 pl-4 pr-4 b-rd-2rem text-1.8rem outline-none max-w-40rem h-5rem text-indigo-600 bg-white b-indigo-600"
+            class="pt-2 pb-2 pl-4 pr-4 b-rd-2rem text-1.8rem outline-none max-w-40rem h-5rem text-indigo-600 dark:text-white dark:bg-gray-400 b-indigo-600"
             name="email"
             type="email"
             required
             placeholder="What's your Email"
           />
           <textarea
-            class="pt-2 pb-2 pl-4 pr-4 b-rd-2rem text-1.8rem outline-none max-w-40rem h-12rem text-indigo-600 bg-white b-indigo-600"
+            class="pt-2 pb-2 pl-4 pr-4 b-rd-2rem text-1.8rem outline-none max-w-40rem h-12rem text-indigo-600 dark:text-white dark:bg-gray-400 b-indigo-600"
             name="description"
             id="problem"
             placeholder="Just say it :)"
