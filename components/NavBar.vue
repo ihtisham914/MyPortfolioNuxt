@@ -1,46 +1,51 @@
 <template>
   <ul
-    class="flex items-center justify-center gap-2rem list-none p-2rem text-2rem h-7.4rem w-100% absolute sticky bottom-0 md:right-40 md:flex lg:hidden bg-indigo-400 backdrop-blur dark:bg-gray-900/50"
+    class="flex items-center justify-center gap-2rem list-none p-2rem text-2rem w-100% absolute sticky bottom-0 md:right-40 md:flex lg:hidden bg-gray-50/10 backdrop-blur dark:bg-gray-900/50 light:text-white"
   >
     <li>
       <a
         href="#home"
-        class="text-black p-1rem transition-all decoration-none dark:text-white"
-        hover="font-semibold"
-        >Home</a
-      >
+        class="flex items-center justify-center text-gray-300 p-1rem bg-gray-600 dark:bg-gray-600 b-rd-50% transition-all decoration-none"
+        hover="font-semibold bg-indigo-600 dark:bg-rose-500"
+        active="font-semibold bg-indigo-600 dark:bg-rose-500"
+        ><div class="i-mdi-home-account text-3.2rem"
+      /></a>
     </li>
     <li>
       <a
         href="#skills"
-        class="text-black p-1rem transition-all decoration-none dark:text-white"
-        hover="font-semibold"
-        >Skills</a
-      >
+        class="flex items-center justify-center text-gray-300 p-1rem bg-gray-600 dark:bg-gray-600 b-rd-50% transition-all decoration-none"
+        hover="font-semibold bg-indigo-600 dark:bg-rose-500"
+        active="font-semibold bg-indigo-600 dark:bg-rose-500"
+        ><div class="i-mdi-account-cog text-3.2rem"
+      /></a>
     </li>
     <li>
       <a
         href="#about"
-        class="text-black p-1rem transition-all decoration-none dark:text-white"
-        hover="font-semibold"
-        >About</a
-      >
+        class="flex items-center justify-center text-gray-300 p-1rem bg-gray-600 dark:bg-gray-600 b-rd-50% transition-all decoration-none"
+        hover="font-semibold bg-indigo-600 dark:bg-rose-500"
+        active="font-semibold bg-indigo-600 dark:bg-rose-500"
+        ><div class="i-mdi-account-credit-card text-3.2rem"
+      /></a>
     </li>
     <li>
       <a
         href="#projects"
-        class="text-black p-1rem transition-all decoration-none dark:text-white"
-        hover="font-semibold"
-        >Projects</a
-      >
+        class="flex items-center justify-center text-gray-300 p-1rem bg-gray-600 dark:bg-gray-600 b-rd-50% transition-all decoration-none"
+        hover="font-semibold bg-indigo-600 dark:bg-rose-500"
+        active="font-semibold bg-indigo-600 dark:bg-rose-500"
+        ><div class="i-mdi-briefcase-variant text-3.2rem"
+      /></a>
     </li>
     <li>
       <a
         href="#contact"
-        class="text-black p-1rem transition-all decoration-none dark:text-white"
-        hover="font-semibold"
-        >Contact</a
-      >
+        class="flex items-center justify-center text-gray-300 p-1rem bg-gray-600 dark:bg-gray-600 b-rd-50% transition-all decoration-none"
+        hover="font-semibold bg-indigo-600 dark:bg-rose-500"
+        active="font-semibold bg-indigo-600 dark:bg-rose-500"
+        ><div class="i-mdi-email text-3.2rem"
+      /></a>
     </li>
   </ul>
 </template>

@@ -62,9 +62,28 @@ export default {
       </div>
     </div>
     <div class="flex items-center justify-center h-30rem w-50rem b-rd-1rem">
+      <!-- <img
+        class="h-100% w-40rem ml-0 md:w-45rem lg:w-45rem b-rd-1rem"
+        src="../static/projectImages/chat.webp"
+        alt="Project images"
+      />
       <img
         class="h-100% w-40rem ml-0 md:w-45rem lg:w-45rem b-rd-1rem"
-        :src="`/projectImages/${img_1}`"
+        src="../static/projectImages/chappal.webp"
+        alt="Project images"
+      />
+      <img
+        class="h-100% w-40rem ml-0 md:w-45rem lg:w-45rem b-rd-1rem"
+        src="../static/projectImages/Codingtech1.webp"
+        alt="Project images"
+      /><img
+        class="h-100% w-40rem ml-0 md:w-45rem lg:w-45rem b-rd-1rem"
+        src="../static/projectImages/portfolio.webp"
+        alt="Project images"
+      /> -->
+      <img
+        class="h-100% w-40rem ml-0 md:w-45rem lg:w-45rem b-rd-1rem"
+        :src="`../static/projectImages/${img_1}`"
         alt="Project images"
       />
     </div>
