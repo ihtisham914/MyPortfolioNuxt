@@ -6,8 +6,9 @@
     <img class="h-50rem" src="../assets/images/aboutdp.jpg" alt="" />
     <div>
       <h3
-        class="text-3.2rem mb-4.6rem text-center md:text-initial lg:text-initial"
+        class="flex items-center justify-center gap5 text-3.2rem mb-4.6rem text-center md:text-initial lg:text-initial"
       >
+        <div class="i-mdi-account-cog text-indigo-600 text-4rem" />
         About Me
       </h3>
       <p>

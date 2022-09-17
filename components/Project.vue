@@ -10,13 +10,18 @@ export default {
     link: String,
     code: String,
     img_1: String,
+    direction: String,
   },
 };
 </script>
 
 <template>
   <div
-    class="flex flex-col items-center justify-between gap-3.2rem mb-6.4rem p3.2rem md:p-4.4rem lg:p-4.4rem md:flex-row lg:flex-row shadow-xl dark:bg-gray-700 b-rd-1rem"
+    :class="`flex flex-col-reverse items-center justify-between gap-3.2rem mb-9.4rem p3.2rem md:p-4.4rem lg:p-4.4rem ${
+      direction == 'reverse'
+        ? 'md:flex-row-reverse lg:flex-row-reverse'
+        : 'md:flex-row lg:flex-row'
+    } shadow-xl dark:bg-gray-700 b-rd-1rem`"
   >
     <div class="w-100% md:w-40% lg:w-40%">
       <div class="flex items-center gap-2rem mb-2.8rem">

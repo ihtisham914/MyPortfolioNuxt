@@ -37,6 +37,7 @@ export default {
       link="https://chatresponsivedesign.netlify.app"
       code="https://github.com/ihtisham914/chatApplication.git"
       img_1="chat.webp"
+      direction="normal"
     />
 
     <Project
@@ -48,6 +49,7 @@ export default {
       link="https://charsadwalchappal.000webhostapp.com/client/index.php"
       code="https://github.com/ihtisham914/charsadwalChappalphp.git"
       img_1="chappal.webp"
+      direction="reverse"
     />
     <Project
       title="CodingTech"
@@ -58,6 +60,7 @@ export default {
       link="https://codingtechreact.netlify.app"
       code="https://github.com/ihtisham914/CodingTechReact.git"
       img_1="Codingtech1.webp"
+      direction="normal"
     />
 
     <Project
@@ -69,6 +72,7 @@ export default {
       link="https://ihtishamportfolio.netlify.app"
       code="https://github.com/ihtisham914/myportfolionuxt.git"
       img_1="portfolio.webp"
+      direction="reverse"
     />
   </div>
 </template>

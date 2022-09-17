@@ -16,8 +16,8 @@ export default {
     class="ml-auto mr-auto pt-12rem pl-4rem pr-4rem md:pl-10rem md:pr-10rem lg:pl-10rem lg:pr-10rem"
     id="skills"
   >
-    <h3 class="text-3.2rem mb-6.8rem" flex align-center gap-5>
-      <div class="i-mdi-user text-indigo-600 text-4rem" />
+    <h3 class="text-3.2rem mb-6.8rem flex items-center justify-initial gap-5">
+      <div class="i-mdi-account-cog text-indigo-600 text-4rem" />
       Skilled In Technologies
     </h3>
     <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-3.2rem">
