@@ -9,15 +9,13 @@ export default {
     class="mt-6.4rem text-center w-100% text-1.8rem pt-5rem pb-5rem pl-4rem pr-4rem md:pl-10rem md:pr-10rem lg:pl-10rem lg:pr-10rem bg-cyan-50 dark:text-white dark:bg-gray-700"
   >
     <div class="flex items-center justify-between pb-5rem b-b-0.2rem">
-      <div>
-        <a
-          class="text-gray-600 dark:text-white text-3.4rem font-semibold decoration-none"
-          hover="text-indigo-600 dark:text-rose-500"
-          href="#home"
-        >
-          ɨʊɦ</a
-        >
-      </div>
+      <a class="decoration-none" href="#home">
+        <img
+          class="h-6.4rem mt-2rem md:h-9.4rem lg:h-9.4rem hover:op80"
+          src="../assets/logo.png"
+          alt=""
+      /></a>
+
       <div class="flex flex-row gap-2rem">
         <a href="https://gitlab.com/ihtisham914" target="_blank">
           <div

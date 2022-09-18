@@ -8,7 +8,7 @@
       <h3
         class="flex items-center justify-center gap5 text-3.2rem mb-4.6rem text-center md:text-initial lg:text-initial"
       >
-        <div class="i-mdi-account-cog text-indigo-600 text-4rem" />
+        <div class="i-mdi-account text-indigo-600 text-4rem" />
         About Me
       </h3>
       <p>
