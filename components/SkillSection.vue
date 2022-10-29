@@ -72,6 +72,7 @@ export default {
           color="text-white"
           bgColor="bg-indigo-600"
           border="border-indigo-600"
+          target="_self"
         />
       </div>
     </div>

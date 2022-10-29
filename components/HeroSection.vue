@@ -41,7 +41,7 @@ export default {
         />
         <a href="#projects"
           ><button
-            class="btn text-3xl text-blue-600 bg-white ml-10rem pt-0.5rem pb-0.5rem pl-1rem pr-1rem b-rd-0.5rem border-blue-600 transition-all cursor-pointer"
+            class="btn text-3xl text-blue-600 bg-white ml-10rem pt-0.5rem pb-0.5rem pl-1rem pr-1rem lg:text-4xl lg:pt-1rem lg:pb-1rem lg:pl-2rem lg:pr-2rem md:text-3xl md:pt-0.5rem md:pb-0.5rem md:pl-1rem md:pr-1rem b-rd-0.5rem border-blue-600 transition-all cursor-pointer"
             hover="text-white bg-blue-600"
           >
             My Work &darr;
