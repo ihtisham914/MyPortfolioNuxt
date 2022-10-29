@@ -6,7 +6,7 @@ export default {
 
 <template>
   <footer
-    class="mt-6.4rem text-center w-100% text-1.8rem pt-5rem pb-5rem pl-4rem pr-4rem md:pl-10rem md:pr-10rem lg:pl-10rem lg:pr-10rem bg-cyan-50 dark:text-white dark:bg-gray-700"
+    class="mt-6.4rem text-center w-100% text-1.8rem pt-5rem pb-5rem pl-4rem pr-4rem md:pl-10rem md:pr-10rem lg:pl-10rem lg:pr-10rem bg-cyan-50 dark:text-white dark:bg-gray-800"
   >
     <div class="flex items-center justify-between pb-5rem b-b-0.2rem">
       <a class="decoration-none" href="#home">

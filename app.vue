@@ -1,7 +1,7 @@
 <template>
   <div
     id="app"
-    class="text-2.4rem dark:text-white dark:bg-gray-800 text-black bg-white relative"
+    class="text-2.4rem dark:text-white dark:bg-bluegray-900 text-black bg-white relative"
   >
     <Header />
     <HeroSection />
@@ -37,7 +37,7 @@ body::-webkit-scrollbar-track {
   background: rgb(255, 255, 255, 0.5);
 }
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(250, 156, 172);
+  background-color: rgb(88, 98, 243);
   border-radius: 20px;
   border: 3px solid rgb(255, 255, 255, 0.5);
 }

@@ -10,40 +10,40 @@
       <li>
         <a
           href="#home"
-          class="text-gray-600 dark:text-white p-1rem transition-all decoration-none"
-          hover=" text-indigo-600 dark:text-rose-500"
+          class="text-gray-600 font-semibold dark:text-white p-1rem transition-all decoration-none"
+          hover=" text-indigo-600 dark:text-indigo-400"
           >Home</a
         >
       </li>
       <li>
         <a
           href="#skills"
-          class="text-gray-600 dark:text-white p-1rem transition-all decoration-none"
-          hover=" text-indigo-600 dark:text-rose-500"
+          class="text-gray-600 font-semibold dark:text-white p-1rem transition-all decoration-none"
+          hover=" text-indigo-600 dark:text-indigo-400"
           >Skills</a
         >
       </li>
       <li>
         <a
           href="#about"
-          class="text-gray-600 dark:text-white p-1rem transition-all decoration-none"
-          hover=" text-indigo-600 dark:text-rose-500"
+          class="text-gray-600 font-semibold dark:text-white p-1rem transition-all decoration-none"
+          hover=" text-indigo-600 dark:text-indigo-400"
           >About</a
         >
       </li>
       <li>
         <a
           href="#projects"
-          class="text-gray-600 dark:text-white p-1rem transition-all decoration-none"
-          hover="text-indigo-600 dark:text-rose-500"
+          class="text-gray-600 font-semibold dark:text-white p-1rem transition-all decoration-none"
+          hover="text-indigo-600 dark:text-indigo-400"
           >Projects</a
         >
       </li>
       <li>
         <a
           href="#contact"
-          class="text-gray-600 dark:text-white p-1rem transition-all decoration-none"
-          hover=" text-indigo-600 dark:text-rose-500"
+          class="text-gray-600 font-semibold dark:text-white p-1rem transition-all decoration-none"
+          hover=" text-indigo-600 dark:text-indigo-400"
           >Contact</a
         >
       </li>

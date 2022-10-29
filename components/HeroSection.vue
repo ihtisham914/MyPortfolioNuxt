@@ -12,7 +12,7 @@ export default {
 
 <template>
   <div
-    class="h-90vh ml-auto mr-auto pt-8rem pb-8rem pl-4rem pr-4rem md:pl-10rem md:pr-10rem lg:pl-10rem lg:pr-16rem relative bg-cyan-50 flex flex-col items-center justify-between gap-6.4rem md:flex-row lg:flex-row dark:bg-gray-700"
+    class="h-90vh ml-auto mr-auto pt-8rem pb-8rem pl-4rem pr-4rem md:pl-10rem md:pr-10rem lg:pl-10rem lg:pr-16rem relative bg-cyan-50 flex flex-col items-center justify-between gap-6.4rem md:flex-row lg:flex-row dark:bg-gray-800"
     id="home"
   >
     <div class="w-100% lg:w-50%">
@@ -25,10 +25,10 @@ export default {
         class="mt-2.4rem mb-6rem lh-4rem text-center lg:text-start md:text-start"
       >
         I am a
-        <span text-indigo-600 dark:text-rose-500>software Engineer</span> and
+        <span text-indigo-600 dark:text-indigo-400>software Engineer</span> and
         Full Stack Developer, working in different JavaScript Frameworks like
-        <span text-indigo-600 dark:text-rose-500>React.js</span> and
-        <span text-indigo-600 dark:text-rose-500>Vue.js</span>
+        <span text-indigo-600 dark:text-indigo-400>React.js</span> and
+        <span text-indigo-600 dark:text-indigo-400>Vue.js</span>
       </h3>
       <div class="text-center md:text-start lg:text-start">
         <Button

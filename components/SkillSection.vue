@@ -20,7 +20,9 @@ export default {
       <div class="i-mdi-account-cog text-indigo-600 text-4rem" />
       Skilled In Technologies
     </h3>
-    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-3.2rem">
+    <div
+      class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-3.2rem lg:gap-4.4rem"
+    >
       <Skill
         icon="language-html5"
         iconColor="html"

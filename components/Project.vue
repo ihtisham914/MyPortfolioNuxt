@@ -21,17 +21,17 @@ export default {
       direction == 'reverse'
         ? 'md:flex-row-reverse lg:flex-row-reverse'
         : 'md:flex-row lg:flex-row'
-    } shadow-xl dark:bg-gray-700 b-rd-1rem`"
+    } shadow-xl dark:bg-gray-800 b-rd-1rem`"
   >
     <div class="w-100% md:w-40% lg:w-40%">
       <div class="flex items-center gap-2rem mb-2.8rem">
         <h4
-          class="text-indigo-600 bg-cyan-50 dark:text-indigo-400 shadow-md p-0.3rem pr-1rem pl-1rem b-rd-0.5rem dark:text-white dark:bg-gray-600"
+          class="text-indigo-600 bg-cyan-50 dark:text-indigo-400 shadow-md p-0.3rem pr-1rem pl-1rem b-rd-0.5rem dark:bg-bluegray-700"
         >
           {{ title }}
         </h4>
         <div
-          class="flex items-center justify-center bg-cyan-50 gap-1rem p-0.5rem pr-1rem pl-1rem shadow-md b-rd-0.5rem dark:bg-gray-600"
+          class="flex items-center justify-center bg-cyan-50 gap-1rem p-0.5rem pr-1rem pl-1rem shadow-md b-rd-0.5rem dark:bg-bluegray-700"
         >
           <!-- <div :class="`i-mdi-nuxt  text-green-500 text-3rem" /> -->
           <div v-if="icon == 'nuxt'" class="flex items-center mr-1rem">
