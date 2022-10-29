@@ -74,5 +74,17 @@ export default {
       img_1="portfolio.webp"
       direction="reverse"
     />
+
+    <Project
+      title="DevHub"
+      iconTitle="Reactjs"
+      icon="react"
+      iconColor="react"
+      para="DevHub is a simple, responsive Front-end website that is built in React with tailwind. Here you can find software developers and see their description. You can add developers to help it grow."
+      link="https://developershubreact.netlify.app"
+      code="https://github.com/ihtisham914/DevelopersHub.git"
+      img_1="devhub.png"
+      direction="normal"
+    />
   </div>
 </template>
